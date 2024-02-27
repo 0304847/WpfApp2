@@ -1,0 +1,248 @@
+﻿<Window x:Class="WpfApp9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Height="650"
+        Width="800">
+
+    <Grid Background="LavenderBlush">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0"
+         Margin="5"
+         CornerRadius="14"
+         Background="PowderBlue">
+
+            <StackPanel HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+
+                <Button Content="Task 1"
+                  Cursor="Hand"
+                  x:Name="Btn1"
+                   Click="Btn1_Click"
+                    BorderBrush="Transparent"
+                     Background="Transparent"/>
+
+                <Button Content="Task 2"
+                  Cursor="Hand"
+                  x:Name="Btn2"
+                 Click="Btn2_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 3"
+                 Cursor="Hand"
+                 x:Name="Btn3"
+                  Click="Btn3_Click"
+                  BorderBrush="Transparent"
+                   Background="Transparent"/>
+
+                <Button Content="Task 4"
+                  Cursor="Hand"
+                  x:Name="Btn4"
+                  Click="Btn4_Click"
+                  BorderBrush="Transparent"
+                   Background="Transparent"/>
+
+                <Button Content="Task 5"
+                Cursor="Hand"
+                x:Name="Btn5"
+                 Click="Btn5_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 6"
+                  Cursor="Hand"
+                  x:Name="Btn6"
+                   Click="Btn6_Click"
+                   BorderBrush="Transparent"
+                   Background="Transparent"/>
+
+                <Button Content="Task 7"
+                  Cursor="Hand"
+                   x:Name="Btn7"
+                  Click="Btn7_Click"
+                   BorderBrush="Transparent"
+                    Background="Transparent"/>
+
+                <Button Content="Task 8"
+                 Cursor="Hand"
+                  x:Name="Btn8"
+                 Click="Btn8_Click"
+                 BorderBrush="Transparent"
+                  Background="Transparent"/>
+
+                <Button Content="Task 9"
+                 Cursor="Hand"
+                 x:Name="Btn9"
+                 Click="Btn9_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 10"
+                  Cursor="Hand"
+                   x:Name="Btn10"
+                     Click="Btn10_Click"
+                    BorderBrush="Transparent"
+                   Background="Transparent"/>
+
+                <Button Content="Task 11"
+                 Cursor="Hand"
+                 x:Name="Btn11"
+                 Click="Btn11_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 12"
+                   Cursor="Hand"
+                    x:Name="Btn12"
+                  Click="Btn12_Click"
+                    BorderBrush="Transparent"
+                    Background="Transparent"/>
+
+                <Button Content="Task 13"
+                  Cursor="Hand"
+                    x:Name="Btn13"
+                         Click="Btn13_Click"
+                  BorderBrush="Transparent"
+                    Background="Transparent"/>
+
+                <Button Content="Task 14"
+                 Cursor="Hand"
+                   x:Name="Btn14"
+                 Click="Btn14_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 15"
+                   Cursor="Hand"
+                    x:Name="Btn15"
+                   Click="Btn15_Click"
+                  BorderBrush="Transparent"
+                    Background="Transparent"/>
+
+                <Button Content="Task 16"
+                  Cursor="Hand"
+                  x:Name="Btn16"
+                  Click="Btn16_Click"
+                  BorderBrush="Transparent"
+                   Background="Transparent"/>
+
+                <Button Content="Task 17"
+                 Cursor="Hand"
+                x:Name="Btn17"
+                Click="Btn17_Click"
+               BorderBrush="Transparent"
+                Background="Transparent"/>
+
+                <Button Content="Task 18"
+                 Cursor="Hand"
+                 x:Name="Btn18"
+                Click="Btn18_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 19"
+                  Cursor="Hand"
+                  x:Name="Btn19"
+                 Click="Btn19_Click"
+                  BorderBrush="Transparent"
+                  Background="Transparent"/>
+                <Button Content="Task 20"
+                   Cursor="Hand"
+                    x:Name="Btn20"
+                     Click="Btn20_Click"
+                     BorderBrush="Transparent"
+                    Background="Transparent"/>
+
+                <Button Content="Task 21"
+                     Cursor="Hand"
+                     x:Name="Btn21"
+                     Click="Btn21_Click"
+                     BorderBrush="Transparent"
+                     Background="Transparent"/>
+
+                <Button Content="Task 22"
+                 Cursor="Hand"
+                  x:Name="Btn22"
+                 Click="Btn22_Click"
+                 BorderBrush="Transparent"
+                  Background="Transparent"/>
+
+                <Button Content="Task 23"
+                 Cursor="Hand"
+                 x:Name="Btn23"
+                 Click="Btn23_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 24"
+                 Cursor="Hand"
+                 x:Name="Btn24"
+                 Click="Btn24_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 25"
+                 Cursor="Hand"
+                 x:Name="Btn25"
+                 Click="Btn25_Click"
+                BorderBrush="Transparent"
+                Background="Transparent"/>
+
+                <Button Content="Task 26"
+                 Cursor="Hand"
+                 x:Name="Btn26"
+                 Click="Btn26_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 27"
+                 Cursor="Hand"
+                  x:Name="Btn27"
+                 Click="Btn27_Click"
+                 BorderBrush="Transparent"
+                 Background="Transparent"/>
+
+                <Button Content="Task 28"
+                     Cursor="Hand"
+                     x:Name="Btn28"
+                     Click="Btn28_Click"
+                     BorderBrush="Transparent"
+                    Background="Transparent"/>
+
+                <Button Content="Task 29"
+                     Cursor="Hand"
+                     x:Name="Btn29"
+                     Click="Btn29_Click"
+                    BorderBrush="Transparent"
+                   Background="Transparent"/>
+
+                <Button Content="Task 30"
+                     Cursor="Hand"
+                     x:Name="Btn30"
+                     Click="Btn30_Click"
+                    BorderBrush="Transparent"
+                    Background="Transparent"/>
+            </StackPanel>
+        </Border>
+
+        <Frame Grid.Column="1"
+        x:Name="MainFrame"
+        NavigationUIVisibility="Hidden"/>
+    </Grid>
+
+
+
+</Window>
